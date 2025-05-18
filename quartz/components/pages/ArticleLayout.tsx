@@ -5,7 +5,7 @@ import Comments from "../Comments"
 return (
   <BaseLayout {...props}>
     <article class="popover-hint">
-      {/* ...existing content... */}
+      {/* ...existing content for Articles goes here... */}
     </article>
     <Comments /> {/* Add this line to include comments */}
   </BaseLayout>
