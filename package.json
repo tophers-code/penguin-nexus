@@ -12,6 +12,8 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
+    "build": "npx quartz build --directory=/Users/topher/Library/Mobile Documents/iCloud~md~obsidian/Documents/Penguin-Nexus",
+    "dev": "npx quartz build --serve --directory=/Users/topher/Library/Mobile Documents/iCloud~md~obsidian/Documents/Penguin-Nexus",
     "quartz": "./quartz/bootstrap-cli.mjs",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
